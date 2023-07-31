@@ -20,6 +20,10 @@ const foodSchema = new Schema({
     type: String,
     required: true,
   },
+  day:{
+    type: String,
+    required: true,
+  },
 });
 
 
